@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pth
+checkpoints/
+results/
+chest_xray/
+*.egg-info/
+.env
