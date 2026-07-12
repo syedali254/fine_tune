@@ -1,8 +1,17 @@
+# Dataset
+chest_xray/
+
+# Python
 __pycache__/
 *.pyc
-*.pth
-checkpoints/
-results/
-chest_xray/
-*.egg-info/
-.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store

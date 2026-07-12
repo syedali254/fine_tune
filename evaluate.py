@@ -15,9 +15,12 @@ Both modes use identical preprocessing and metrics for fair comparison.
 """
 
 import argparse
+import sys
 import time
 from pathlib import Path
 from typing import List, Tuple
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import numpy as np
 import torch
@@ -25,9 +28,9 @@ from torch.utils.data import DataLoader
 import torchxrayvision as xrv
 from tqdm import tqdm
 
-from config import Config
+from pneumonia_config import Config
 from dataset import ChestXRayDataset
-from model import PneumoniaClassifier, load_model_for_eval
+from pneumonia_model import PneumoniaClassifier, load_model_for_eval
 from utils import (
     compute_metrics,
     threshold_sweep,

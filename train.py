@@ -18,7 +18,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 
-from config import Config
+from pneumonia_config import Config
 from dataset import ChestXRayDataset
 from pneumonia_model import PneumoniaClassifier
 from utils import set_seed, save_training_curves

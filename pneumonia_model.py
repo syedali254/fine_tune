@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 import torchxrayvision as xrv
 
-from config import Config
+from pneumonia_config import Config
 
 
 class PneumoniaClassifier(nn.Module):
@@ -85,7 +85,7 @@ def load_model_for_eval(checkpoint_path: str, config: Config) -> nn.Module:
         Model in eval mode with loaded weights.
     """
     model = PneumoniaClassifier(config)
-    checkpoint = torch.load(checkpoint_path, map_location=config.device, weights_only=True)
+    checkpoint = torch.load(checkpoint_path, map_location=config.device, weights_only=False)
 
     if "model_state_dict" in checkpoint:
         model.load_state_dict(checkpoint["model_state_dict"])
