@@ -19,8 +19,6 @@ class PneumoniaClassifier(nn.Module):
     The pretrained multi-label head is removed and replaced with a
     single-output binary classification head.
 
-    Args:
-        config: Configuration object.
     """
 
     def __init__(self, config: Config) -> None:
@@ -44,7 +42,7 @@ class PneumoniaClassifier(nn.Module):
             nn.Linear(256, 1),
         )
 
-        # Configure backbone freezing
+        #set  backbone freezing
         self.set_backbone_frozen(config.freeze_backbone)
 
     def set_backbone_frozen(self, frozen: bool) -> None:
@@ -59,12 +57,6 @@ class PneumoniaClassifier(nn.Module):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """Forward pass producing a single logit per sample.
-
-        Args:
-            x: Input tensor of shape (B, 1, 224, 224) in [-1024, 1024] range.
-
-        Returns:
-            Logits of shape (B, 1).
         """
         features = self.features(x)
         out = torch.nn.functional.relu(features, inplace=True)
@@ -77,12 +69,6 @@ class PneumoniaClassifier(nn.Module):
 def load_model_for_eval(checkpoint_path: str, config: Config) -> nn.Module:
     """Load a fine-tuned model from checkpoint for evaluation.
 
-    Args:
-        checkpoint_path: Path to the .pth checkpoint file.
-        config: Configuration object.
-
-    Returns:
-        Model in eval mode with loaded weights.
     """
     model = PneumoniaClassifier(config)
     checkpoint = torch.load(checkpoint_path, map_location=config.device, weights_only=False)

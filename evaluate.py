@@ -1,17 +1,5 @@
 """
-Unified Evaluation Script
-=========================
-Evaluates either the pretrained TorchXRayVision baseline model or a
-fine-tuned checkpoint on the Kaggle Chest X-Ray (Pneumonia) test set.
-
-Usage:
-    # Evaluate pretrained baseline (no checkpoint)
-    python evaluate.py --mode baseline
-
-    # Evaluate fine-tuned model
-    python evaluate.py --mode finetuned --checkpoint checkpoints/best_model.pth
-
-Both modes use identical preprocessing and metrics for fair comparison.
+Run the pretrained TorchXRayVision model on the test set and return the pneumonia probabilities.
 """
 
 import argparse
@@ -45,14 +33,10 @@ from utils import (
 def evaluate_baseline(
     dataloader: DataLoader, device: torch.device
 ) -> Tuple[List[str], np.ndarray, np.ndarray]:
-    """Evaluate the pretrained TorchXRayVision model (baseline).
+    #Evaluate the pretrained TorchXRayVision model (baseline).
 
-    The model applies sigmoid + op_norm internally, so outputs are
-    already calibrated probabilities. No additional sigmoid is applied.
-
-    Returns:
-        Tuple of (filenames, ground_truth_labels, probabilities).
-    """
+  
+    
     model = xrv.models.DenseNet(weights="densenet121-res224-all")
     model.eval()
     model.to(device)
@@ -79,13 +63,9 @@ def evaluate_baseline(
 def evaluate_finetuned(
     dataloader: DataLoader, checkpoint_path: str, config: Config
 ) -> Tuple[np.ndarray, np.ndarray]:
-    """Evaluate a fine-tuned PneumoniaClassifier checkpoint.
+    #Evaluate a fine-tuned model by loading the checkpoint 
 
-    The model outputs raw logits; sigmoid is applied here to get probabilities.
-
-    Returns:
-        Tuple of (ground_truth_labels, probabilities).
-    """
+    
     model = load_model_for_eval(checkpoint_path, config)
     print(f"  Loaded checkpoint: {checkpoint_path}")
 

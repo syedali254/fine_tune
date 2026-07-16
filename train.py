@@ -1,9 +1,6 @@
 """
-Training pipeline for fine-tuning TorchXRayVision DenseNet121.
-
-Usage:
-    python train.py                    # Frozen backbone (default)
-    python train.py --unfreeze         # Full fine-tuning
+Training pipeline for fine-tuning TorchXRayVision DenseNet121
+on pediatric chest X-rays (Normal vs Pneumonia).
 """
 
 import argparse
@@ -31,11 +28,7 @@ def train_one_epoch(
     optimizer: torch.optim.Optimizer,
     device: torch.device,
 ) -> Tuple[float, float]:
-    """Train for one epoch.
-
-    Returns:
-        Tuple of (average_loss, auc).
-    """
+    """Train the model for one epoch."""
     model.train()
     running_loss = 0.0
     all_labels = []
@@ -68,11 +61,7 @@ def validate(
     criterion: nn.Module,
     device: torch.device,
 ) -> Tuple[float, float]:
-    """Validate the model.
-
-    Returns:
-        Tuple of (average_loss, auc).
-    """
+    """Run validation and return avg loss + AUC."""
     model.eval()
     running_loss = 0.0
     all_labels = []
@@ -102,7 +91,7 @@ def save_checkpoint(
     val_auc: float,
     path: str,
 ) -> None:
-    """Save model checkpoint."""
+    """Save model checkpoint to disk."""
     torch.save({
         "epoch": epoch,
         "model_state_dict": model.state_dict(),
@@ -112,35 +101,30 @@ def save_checkpoint(
 
 
 def train(config: Config) -> Dict[str, List[float]]:
-    """Full training loop.
+    """Full training loop — loads data, trains, saves checkpoints."""
 
-    Args:
-        config: Training configuration.
-
-    Returns:
-        Training history dictionary.
-    """
+    # Reproducibility
+    
     set_seed(config.seed)
     print(f"Device: {config.device}")
     print(f"Backbone frozen: {config.freeze_backbone}")
 
-    # ── Datasets ───────────────────────────────────────────────────────────
-    # Combine train/ and val/ folders, then create a new stratified split
+    # Dataset — merge train/val then re-split 80/20
+    # The original Kaggle split is unreliable, so we merge and re-split
+
     dataset_train_folder = ChestXRayDataset(config.data_dir / "train", config.image_size)
     dataset_val_folder = ChestXRayDataset(config.data_dir / "val", config.image_size)
 
-    # Merge image paths and labels from both folders
     all_image_paths = dataset_train_folder.image_paths + dataset_val_folder.image_paths
     all_labels = dataset_train_folder.labels + dataset_val_folder.labels
 
-    # Create a single combined dataset
     combined_dataset = ChestXRayDataset.__new__(ChestXRayDataset)
     combined_dataset.image_paths = all_image_paths
     combined_dataset.labels = all_labels
     combined_dataset.image_size = config.image_size
     combined_dataset.resizer = dataset_train_folder.resizer
 
-    # Deterministic stratified split: 80% train, 20% validation
+    # Stratified 80/20 split
     indices = list(range(len(combined_dataset)))
     train_indices, val_indices = train_test_split(
         indices,
@@ -152,7 +136,7 @@ def train(config: Config) -> Dict[str, List[float]]:
     train_dataset = Subset(combined_dataset, train_indices)
     val_dataset = Subset(combined_dataset, val_indices)
 
-    # Count classes in each split
+    # Class counts in each split
     train_labels = [all_labels[i] for i in train_indices]
     val_labels = [all_labels[i] for i in val_indices]
     train_normal = train_labels.count(0)
@@ -175,15 +159,17 @@ def train(config: Config) -> Dict[str, List[float]]:
         num_workers=config.num_workers, pin_memory=(config.device.type == "cuda"),
     )
 
-    # ── Model ──────────────────────────────────────────────────────────────
+    # Model
+   
     model = PneumoniaClassifier(config).to(config.device)
 
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     total_params = sum(p.numel() for p in model.parameters())
     print(f"\nModel parameters: {total_params:,} total, {trainable_params:,} trainable")
 
-    # ── Loss, Optimizer, Scheduler ─────────────────────────────────────────
-    # Handle class imbalance via pos_weight = num_negative / num_positive
+    # Loss, Optimizer, Scheduler
+    
+    # Give more weight to the minority class (pneumonia)
     pos_weight = torch.tensor([train_normal / train_pneumonia], device=config.device)
     print(f"  pos_weight (normal/pneumonia): {pos_weight.item():.4f}")
     criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
@@ -199,8 +185,9 @@ def train(config: Config) -> Dict[str, List[float]]:
         factor=config.scheduler_factor, min_lr=config.scheduler_min_lr,
     )
 
-    # ── Training Loop ──────────────────────────────────────────────────────
-    history: Dict[str, List[float]] = {
+    # Training loop
+    
+    history = {
         "train_loss": [], "train_auc": [],
         "val_loss": [], "val_auc": [], "lr": [],
     }
@@ -218,18 +205,14 @@ def train(config: Config) -> Dict[str, List[float]]:
         current_lr = optimizer.param_groups[0]["lr"]
         print(f"\nEpoch {epoch}/{config.num_epochs} (lr={current_lr:.2e})")
 
-        # Train
         train_loss, train_auc = train_one_epoch(
             model, train_loader, criterion, optimizer, config.device
         )
 
-        # Validate
         val_loss, val_auc = validate(model, val_loader, criterion, config.device)
 
-        # Scheduler step
         scheduler.step(val_auc)
 
-        # Record history
         history["train_loss"].append(train_loss)
         history["train_auc"].append(train_auc)
         history["val_loss"].append(val_loss)
@@ -239,13 +222,13 @@ def train(config: Config) -> Dict[str, List[float]]:
         print(f"  Train Loss: {train_loss:.4f} | Train AUC: {train_auc:.4f}")
         print(f"  Val   Loss: {val_loss:.4f} | Val   AUC: {val_auc:.4f}")
 
-        # Save last model
+        # Save checkpoint for every epoch (overwrites last)
         save_checkpoint(
             model, optimizer, epoch, val_auc,
             str(config.checkpoint_dir / "last_model.pth"),
         )
 
-        # Save best model
+        # Save best model separately
         if val_auc > best_val_auc:
             best_val_auc = val_auc
             epochs_without_improvement = 0
@@ -258,7 +241,6 @@ def train(config: Config) -> Dict[str, List[float]]:
             epochs_without_improvement += 1
             print(f"  No improvement for {epochs_without_improvement} epoch(s)")
 
-        # Early stopping
         if epochs_without_improvement >= config.early_stopping_patience:
             print(f"\nEarly stopping triggered after {epoch} epochs.")
             break
@@ -270,7 +252,6 @@ def train(config: Config) -> Dict[str, List[float]]:
     print(f"Checkpoints saved to: {config.checkpoint_dir.resolve()}")
     print("=" * 60)
 
-    # Save training curves
     save_training_curves(history, config.output_dir / "training_curves.png")
 
     return history
@@ -292,7 +273,7 @@ def main():
 
     if args.unfreeze:
         config.freeze_backbone = False
-        # Lower learning rate for full fine-tuning to protect pretrained weights
+        # Lower LR for full fine-tuning to avoid damaging pretrained weights
         if args.lr is None:
             config.learning_rate = 1e-4
     if args.epochs is not None:
