@@ -8,3 +8,9 @@ and put inside text_module and this will work and run demo with
 streamlit run app.py
 
 it also has chest xray explaaintbility using GRAD-CAM 
+
+
+BUT to run the demo following requirements are required they can be done using pip in a single line 
+
+Open CMD
+pip install torch streamlit transformers torchxrayvision pytorch-grad-cam numpy pillow opencv-python
