@@ -1,0 +1,566 @@
+text,disease,label
+"The patient presents with difficulty in swallowing, nausea, back pain, vomiting blood, and heartburn.",hiatal hernia,2
+"The patient presents with dizziness, sharp abdominal pain, nausea, back pain, vomiting blood, regurgitation, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, sharp abdominal pain, vomiting blood, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp abdominal pain, vomiting blood, and burning abdominal pain.",hiatal hernia,2
+"The patient presents with chest tightness, cough, nasal congestion, weakness, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, sore throat, vomiting, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, side pain, and hurts to breath.",pneumothorax,5
+"The patient presents with difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, sore throat, cough, nasal congestion, and difficulty breathing.",pneumonia,4
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, vomiting blood, and heartburn.",hiatal hernia,2
+"The patient presents with sharp chest pain, vomiting, wheezing, and difficulty breathing.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, back pain, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, burning abdominal pain, and heartburn.",hiatal hernia,2
+"The patient presents with shortness of breath, drug abuse, back pain, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with sharp chest pain, sharp abdominal pain, weakness, and side pain.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, back pain, regurgitation, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, and shoulder pain.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, dizziness, cough, and headache.",atelectasis,0
+"The patient presents with shortness of breath, sharp chest pain, back pain, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with sore throat, cough, weakness, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, nausea, back pain, vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp abdominal pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sore throat, cough, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, nasal congestion, leg swelling, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, difficulty in swallowing, nausea, back pain, vomiting blood, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, chest tightness, and nasal congestion.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, leg swelling, weakness, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, and back pain.",pleural effusion,3
+"The patient presents with sharp abdominal pain, burning abdominal pain, and heartburn.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp abdominal pain, weakness, side pain, and difficulty breathing.",pleural effusion,3
+"The patient presents with shortness of breath, drug abuse, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, chest tightness, cough, leg swelling, weakness, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, vomiting, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, nasal congestion, wheezing, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, cough, vomiting, weakness, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with cough, sharp abdominal pain, side pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, leg swelling, and decreased heart rate.",pulmonary congestion,6
+The patient presents with shortness of breath and cough.,pulmonary congestion,6
+"The patient presents with sharp chest pain, dizziness, nausea, regurgitation, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, nausea, vomiting blood, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, weakness, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, back pain, vomiting blood, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, difficulty in swallowing, vomiting blood, regurgitation, burning abdominal pain, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with drug abuse, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sore throat, cough, nasal congestion, vomiting, fever, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, weakness, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, cough, nasal congestion, wheezing, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with cough, drug abuse, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sharp chest pain, side pain, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sore throat, cough, nasal congestion, vomiting, weakness, and coryza.",pneumonia,4
+The patient presents with sharp chest pain and side pain.,pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, wheezing, fever, and coryza.",pneumonia,4
+"The patient presents with sharp abdominal pain, weakness, side pain, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, cough, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, chest tightness, cough, leg swelling, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with shortness of breath, sore throat, nasal congestion, vomiting, wheezing, weakness, fever, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with cough, sharp abdominal pain, back pain, weakness, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sore throat, cough, vomiting, wheezing, weakness, and fever.",pneumonia,4
+"The patient presents with sharp chest pain, cough, drug abuse, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, sore throat, cough, weakness, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp abdominal pain, back pain, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, cough, sharp abdominal pain, back pain, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, vomiting, and weakness.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, back pain, vomiting blood, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, wheezing, and weakness.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, and fainting.",pulmonary fibrosis,7
+"The patient presents with nasal congestion, wheezing, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp abdominal pain, weakness, side pain, and difficulty breathing.",pleural effusion,3
+"The patient presents with difficulty in swallowing, vomiting blood, regurgitation, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, sharp abdominal pain, vomiting blood, and heartburn.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, drug abuse, side pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sharp chest pain, nausea, regurgitation, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, cough, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, cough, nasal congestion, and fever.",pneumonia,4
+"The patient presents with shortness of breath, chest tightness, cough, leg swelling, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with shortness of breath, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, vomiting, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, cough, back pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sore throat, nasal congestion, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, cough, nasal congestion, weakness, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with difficulty in swallowing, sharp abdominal pain, back pain, vomiting blood, regurgitation, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, cough, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sharp chest pain, sore throat, nasal congestion, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, cough, nasal congestion, vomiting, wheezing, weakness, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, sore throat, nasal congestion, fever, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, chest tightness, cough, and leg swelling.",pulmonary congestion,6
+"The patient presents with nasal congestion, vomiting, fever, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, nasal congestion, leg swelling, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with shortness of breath, cough, nasal congestion, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, cough, nasal congestion, leg swelling, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, nasal congestion, vomiting, fever, and coryza.",pneumonia,4
+"The patient presents with dizziness, difficulty in swallowing, nausea, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, chest tightness, cough, and leg swelling.",pulmonary congestion,6
+"The patient presents with sharp chest pain, sharp abdominal pain, weakness, side pain, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with cough, drug abuse, and shoulder pain.",pneumothorax,5
+"The patient presents with dizziness, difficulty in swallowing, nausea, back pain, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with back pain, burning abdominal pain, and heartburn.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, and back pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, nasal congestion, vomiting, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, sore throat, nasal congestion, weakness, fever, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, sharp abdominal pain, back pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, and sharp abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, wheezing, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, cough, vomiting, wheezing, and weakness.",pneumonia,4
+"The patient presents with shortness of breath, cough, drug abuse, and shoulder pain.",pneumothorax,5
+"The patient presents with shortness of breath, vomiting, and chills.",pneumonia,4
+"The patient presents with dizziness, difficulty in swallowing, nausea, vomiting blood, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, side pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, cough, weakness, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, difficulty in swallowing, sharp abdominal pain, nausea, back pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with cough, wheezing, weakness, fever, and coryza.",pneumonia,4
+"The patient presents with difficulty in swallowing, nausea, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, sharp abdominal pain, back pain, weakness, side pain, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, back pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, difficulty in swallowing, back pain, and vomiting blood.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, nasal congestion, wheezing, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, fainting, and fever.",pulmonary fibrosis,7
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, back pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, fainting, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, vomiting blood, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, sharp abdominal pain, and weakness.",pleural effusion,3
+"The patient presents with shortness of breath, nasal congestion, vomiting, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, sharp abdominal pain, weakness, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, chest tightness, cough, and nasal congestion.",pulmonary congestion,6
+"The patient presents with cough, drug abuse, and side pain.",pneumothorax,5
+"The patient presents with sharp chest pain, back pain, and vomiting blood.",hiatal hernia,2
+"The patient presents with shortness of breath, sore throat, vomiting, wheezing, and weakness.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, cough, vomiting, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, vomiting blood, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, drug abuse, side pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sharp abdominal pain, nausea, back pain, vomiting blood, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, chest tightness, cough, and fainting.",pulmonary fibrosis,7
+"The patient presents with shortness of breath, sharp chest pain, sore throat, wheezing, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with sore throat, nasal congestion, weakness, fever, and coryza.",pneumonia,4
+"The patient presents with chest tightness, cough, nasal congestion, leg swelling, weakness, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, sharp abdominal pain, back pain, weakness, and difficulty breathing.",pleural effusion,3
+"The patient presents with sharp chest pain, cough, drug abuse, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with dizziness, sharp abdominal pain, nausea, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with chest tightness, leg swelling, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with shortness of breath, sore throat, nasal congestion, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+The patient presents with chest tightness and cough.,pulmonary congestion,6
+"The patient presents with sharp chest pain, dizziness, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, heartburn, and regurgitation.1.",hiatal hernia,2
+The patient presents with cough and nasal congestion.,pulmonary congestion,6
+"The patient presents with cough, nasal congestion, vomiting, wheezing, weakness, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, cough, weakness, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp abdominal pain, back pain, weakness, and difficulty breathing.",pleural effusion,3
+"The patient presents with sore throat, nasal congestion, vomiting, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, cough, nasal congestion, vomiting, wheezing, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with dizziness, sharp abdominal pain, burning abdominal pain, and heartburn.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, vomiting, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, wheezing, fever, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, weakness, fever, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, weakness, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, sore throat, and headache.",atelectasis,0
+"The patient presents with sharp chest pain, dizziness, cough, and headache.",atelectasis,0
+"The patient presents with shortness of breath, cough, weakness, and rib pain.",pleural effusion,3
+"The patient presents with cough, sharp abdominal pain, back pain, weakness, and hurts to breath.",pleural effusion,3
+"The patient presents with nasal congestion, vomiting, wheezing, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, vomiting blood, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with dizziness, difficulty in swallowing, nausea, back pain, vomiting blood, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, back pain, vomiting blood, and burning abdominal pain.",hiatal hernia,2
+"The patient presents with sore throat, nasal congestion, vomiting, and fever.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, and weakness.",pulmonary congestion,6
+"The patient presents with shortness of breath, drug abuse, back pain, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, chest tightness, cough, nasal congestion, leg swelling, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with chest tightness, cough, leg swelling, and weakness.",pulmonary congestion,6
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, nausea, back pain, vomiting blood, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, fainting, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with shortness of breath, sharp chest pain, cough, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, regurgitation, burning abdominal pain, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, drug abuse, side pain, and hurts to breath.",pneumothorax,5
+"The patient presents with difficulty in swallowing, sharp abdominal pain, back pain, vomiting blood, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, cough, sharp abdominal pain, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sore throat, nasal congestion, vomiting, fever, chills, and coryza.",pneumonia,4
+"The patient presents with chest tightness, cough, nasal congestion, leg swelling, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with sharp chest pain, vomiting, wheezing, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, chest tightness, cough, nasal congestion, leg swelling, and weakness.",pulmonary congestion,6
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, weakness, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, nausea, vomiting blood, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, weakness, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, nasal congestion, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with sore throat, nasal congestion, wheezing, fever, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, cough, vomiting, fever, and chills.",pneumonia,4
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, back pain, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, drug abuse, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with drug abuse, back pain, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, cough, nasal congestion, and leg swelling.",pulmonary congestion,6
+"The patient presents with sharp chest pain, cough, nasal congestion, fever, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, chest tightness, cough, leg swelling, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, chest tightness, cough, leg swelling, and weakness.",pulmonary congestion,6
+"The patient presents with sharp chest pain, cough, nasal congestion, wheezing, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with sore throat, cough, nasal congestion, wheezing, weakness, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with sharp abdominal pain, back pain, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, back pain, and heartburn.",hiatal hernia,2
+"The patient presents with shortness of breath, chest tightness, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with shortness of breath, sore throat, cough, nasal congestion, vomiting, fever, chills, and coryza.",pneumonia,4
+"The patient presents with difficulty in swallowing, back pain, vomiting blood, regurgitation, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, sore throat, cough, nasal congestion, vomiting, wheezing, weakness, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, nasal congestion, fever, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, back pain, vomiting blood, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, nasal congestion, fever, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, dizziness, sore throat, cough, and headache.",atelectasis,0
+"The patient presents with shortness of breath, chest tightness, cough, nasal congestion, leg swelling, and weakness.",pulmonary congestion,6
+"The patient presents with sharp chest pain, difficulty in swallowing, nausea, and vomiting blood.",hiatal hernia,2
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, and burning abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, leg swelling, weakness, and decreased heart rate.",pulmonary congestion,6
+The patient presents with cough and wheezing.,pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, leg swelling, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, cough, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, cough, and headache.",atelectasis,0
+"The patient presents with dizziness, difficulty in swallowing, nausea, vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with weakness, side pain, and difficulty breathing.",pleural effusion,3
+"The patient presents with sharp chest pain, sharp abdominal pain, back pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, sharp abdominal pain, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, nausea, vomiting blood, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, weakness, and hurts to breath.",pleural effusion,3
+"The patient presents with cough, nasal congestion, wheezing, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, vomiting, wheezing, weakness, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, drug abuse, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+The patient presents with sharp chest pain and difficulty breathing.,pneumonia,4
+"The patient presents with sharp chest pain, difficulty in swallowing, nausea, back pain, vomiting blood, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, sharp abdominal pain, weakness, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, cough, drug abuse, back pain, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, sharp abdominal pain, weakness, and side pain.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, nasal congestion, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with cough, drug abuse, and shoulder pain.",pneumothorax,5
+"The patient presents with dizziness, sore throat, and headache.",atelectasis,0
+"The patient presents with sore throat, nasal congestion, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, cough, nasal congestion, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, vomiting, wheezing, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, nasal congestion, wheezing, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, cough, wheezing, and weakness.",pneumonia,4
+"The patient presents with sharp chest pain, chest tightness, cough, leg swelling, weakness, and fever.",pulmonary congestion,6
+"The patient presents with dizziness, difficulty in swallowing, vomiting blood, and heartburn.",hiatal hernia,2
+"The patient presents with chest tightness, cough, nasal congestion, and leg swelling.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, cough, sharp abdominal pain, back pain, weakness, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with chest tightness, cough, nasal congestion, leg swelling, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, nasal congestion, vomiting, fever, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, drug abuse, back pain, and shoulder pain.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, and difficulty breathing.",pulmonary fibrosis,7
+The patient presents with shortness of breath and weakness.,pulmonary congestion,6
+"The patient presents with shortness of breath, wheezing, weakness, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, sharp abdominal pain, weakness, side pain, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, vomiting, chills, and coryza.",pneumonia,4
+"The patient presents with cough, side pain, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, sore throat, nasal congestion, weakness, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, dizziness, sore throat, and headache.",atelectasis,0
+"The patient presents with vomiting, wheezing, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, and weakness.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, vomiting, weakness, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, back pain, side pain, and difficulty breathing.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, cough, sharp abdominal pain, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, sore throat, vomiting, fever, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, wheezing, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, drug abuse, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, cough, chills, and coryza.",pneumonia,4
+"The patient presents with sore throat, cough, nasal congestion, wheezing, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with cough, sharp abdominal pain, and weakness.",pleural effusion,3
+"The patient presents with shortness of breath, cough, nasal congestion, fever, and coryza.",pneumonia,4
+"The patient presents with dizziness, sharp abdominal pain, vomiting blood, and heartburn.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, drug abuse, and side pain.",pneumothorax,5
+"The patient presents with sharp chest pain, drug abuse, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, cough, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with cough, sharp abdominal pain, back pain, weakness, side pain, and difficulty breathing.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, sharp abdominal pain, nausea, back pain, burning abdominal pain, and heartburn.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, drug abuse, and side pain.",pneumothorax,5
+"The patient presents with shortness of breath, chest tightness, cough, leg swelling, weakness, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, cough, vomiting, wheezing, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, vomiting, wheezing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, nausea, vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp abdominal pain, back pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, and cough.",emphysema,1
+"The patient presents with shortness of breath, cough, fainting, fever, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, back pain, and vomiting blood.",hiatal hernia,2
+"The patient presents with dizziness, sharp abdominal pain, back pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, nasal congestion, wheezing, and difficulty breathing.",pneumonia,4
+"The patient presents with difficulty in swallowing, sharp abdominal pain, back pain, and heartburn.",hiatal hernia,2
+"The patient presents with cough, nasal congestion, leg swelling, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, nausea, vomiting blood, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, and chills.",pneumonia,4
+"The patient presents with sharp abdominal pain, weakness, side pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, cough, sharp abdominal pain, back pain, side pain, and difficulty breathing.",pleural effusion,3
+"The patient presents with cough, vomiting, wheezing, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with vomiting, wheezing, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with sharp chest pain, nasal congestion, wheezing, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, chest tightness, cough, nasal congestion, leg swelling, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp abdominal pain, weakness, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with dizziness, difficulty in swallowing, nausea, back pain, vomiting blood, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with cough, vomiting, wheezing, weakness, fever, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, difficulty in swallowing, and heartburn.",hiatal hernia,2
+"The patient presents with cough, nasal congestion, vomiting, wheezing, weakness, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with sharp chest pain, sharp abdominal pain, nausea, vomiting blood, regurgitation, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, nausea, vomiting blood, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, nasal congestion, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, dizziness, and cough.",atelectasis,0
+"The patient presents with sharp chest pain, difficulty in swallowing, nausea, back pain, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp abdominal pain, and back pain.",pleural effusion,3
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, nasal congestion, weakness, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with sharp chest pain, chest tightness, cough, nasal congestion, and weakness.",pulmonary congestion,6
+"The patient presents with shortness of breath, chest tightness, cough, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, difficulty in swallowing, nausea, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with chest tightness, cough, fainting, fever, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, leg swelling, and weakness.",pulmonary congestion,6
+"The patient presents with difficulty in swallowing, vomiting blood, and heartburn.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, back pain, weakness, and difficulty breathing.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, vomiting blood, and heartburn.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, nasal congestion, vomiting, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, vomiting, wheezing, and difficulty breathing.",pneumonia,4
+"The patient presents with cough, nasal congestion, vomiting, weakness, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, back pain, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, cough, leg swelling, weakness, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, wheezing, weakness, fever, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, and chest tightness.",pulmonary fibrosis,7
+"The patient presents with shortness of breath, sore throat, cough, nasal congestion, vomiting, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, cough, nasal congestion, leg swelling, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, cough, fainting, and fever.",pulmonary fibrosis,7
+"The patient presents with shortness of breath, drug abuse, back pain, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with sharp chest pain, nasal congestion, wheezing, weakness, and coryza.",pneumonia,4
+"The patient presents with vomiting, wheezing, weakness, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, nasal congestion, wheezing, weakness, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, nausea, vomiting blood, regurgitation, heartburn, and regurgitation.1.",hiatal hernia,2
+The patient presents with cough and chills.,pneumonia,4
+"The patient presents with difficulty in swallowing, vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with dizziness, difficulty in swallowing, nausea, vomiting blood, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, cough, nasal congestion, leg swelling, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, cough, vomiting, wheezing, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with wheezing, fever, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp abdominal pain, weakness, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with cough, sharp abdominal pain, back pain, weakness, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, vomiting, weakness, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with sharp abdominal pain, back pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with cough, sharp abdominal pain, weakness, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, back pain, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with sharp chest pain, wheezing, weakness, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, wheezing, weakness, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, sharp abdominal pain, nausea, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sore throat, cough, nasal congestion, vomiting, wheezing, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with sore throat, cough, weakness, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, cough, wheezing, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, sharp abdominal pain, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sore throat, fever, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, back pain, weakness, and rib pain.",pleural effusion,3
+"The patient presents with sore throat, cough, nasal congestion, vomiting, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, vomiting blood, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, regurgitation, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, nausea, regurgitation, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp abdominal pain, back pain, weakness, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with back pain, side pain, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, cough, vomiting, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, cough, vomiting, weakness, fever, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, nasal congestion, vomiting, wheezing, fever, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, cough, nasal congestion, vomiting, weakness, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, back pain, weakness, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with cough, sharp abdominal pain, back pain, weakness, and difficulty breathing.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, back pain, vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, weakness, fever, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, nasal congestion, leg swelling, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, difficulty in swallowing, back pain, and burning abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, vomiting, and weakness.",pneumonia,4
+"The patient presents with shortness of breath, cough, vomiting, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with cough, nasal congestion, leg swelling, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, vomiting blood, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, cough, leg swelling, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+The patient presents with cough and emotional symptoms.,emphysema,1
+"The patient presents with sharp chest pain, dizziness, sharp abdominal pain, nausea, back pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, difficulty in swallowing, back pain, regurgitation, burning abdominal pain, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, nasal congestion, vomiting, weakness, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, vomiting blood, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sore throat, nasal congestion, wheezing, weakness, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, nasal congestion, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, back pain, vomiting blood, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sore throat, cough, nasal congestion, vomiting, wheezing, and chills.",pneumonia,4
+"The patient presents with chest tightness, cough, fainting, and fever.",pulmonary fibrosis,7
+"The patient presents with shortness of breath, sharp chest pain, sore throat, wheezing, and weakness.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, vomiting, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with sharp abdominal pain, vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with dizziness, sharp abdominal pain, nausea, vomiting blood, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, vomiting blood, and burning abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, vomiting blood, regurgitation, and regurgitation.1.",hiatal hernia,2
+"The patient presents with dizziness, sore throat, cough, and headache.",atelectasis,0
+"The patient presents with shortness of breath, sharp abdominal pain, back pain, side pain, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sore throat, nasal congestion, and wheezing.",pneumonia,4
+"The patient presents with sharp chest pain, side pain, difficulty breathing, and rib pain.",pleural effusion,3
+The patient presents with cough and back pain.,pleural effusion,3
+"The patient presents with sharp chest pain, cough, nasal congestion, leg swelling, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, sore throat, cough, nasal congestion, vomiting, weakness, and chills.",pneumonia,4
+"The patient presents with sharp abdominal pain, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, sharp abdominal pain, nausea, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with dizziness, cough, and headache.",atelectasis,0
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, and headache.",atelectasis,0
+"The patient presents with sharp chest pain, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with difficulty in swallowing, back pain, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, nasal congestion, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, cough, sharp abdominal pain, back pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, sharp abdominal pain, back pain, and hurts to breath.",pleural effusion,3
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, chest tightness, leg swelling, and weakness.",pulmonary congestion,6
+"The patient presents with difficulty in swallowing, sharp abdominal pain, back pain, vomiting blood, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, drug abuse, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, back pain, and side pain.",pleural effusion,3
+"The patient presents with cough, sharp abdominal pain, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, nausea, back pain, regurgitation, burning abdominal pain, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sore throat, cough, nasal congestion, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, and nasal congestion.",pneumonia,4
+"The patient presents with shortness of breath, chest tightness, cough, leg swelling, weakness, and fever.",pulmonary congestion,6
+"The patient presents with sore throat, nasal congestion, wheezing, weakness, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, nausea, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, cough, sharp abdominal pain, back pain, weakness, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with wheezing, fever, and coryza.",pneumonia,4
+"The patient presents with chest tightness, cough, nasal congestion, leg swelling, and weakness.",pulmonary congestion,6
+"The patient presents with sore throat, cough, wheezing, weakness, fever, chills, and coryza.",pneumonia,4
+"The patient presents with sore throat, cough, nasal congestion, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, wheezing, weakness, fever, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, sharp abdominal pain, nausea, back pain, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, weakness, and fever.",pneumonia,4
+"The patient presents with difficulty in swallowing, nausea, vomiting blood, regurgitation, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, weakness, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, chest tightness, fainting, fever, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with sharp abdominal pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, dizziness, sore throat, cough, and headache.",atelectasis,0
+"The patient presents with shortness of breath, sore throat, cough, nasal congestion, vomiting, wheezing, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, cough, and weakness.",pleural effusion,3
+"The patient presents with shortness of breath, sore throat, nasal congestion, vomiting, wheezing, weakness, fever, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, chest tightness, cough, nasal congestion, leg swelling, weakness, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, dizziness, cough, and headache.",atelectasis,0
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, and sharp abdominal pain.",pleural effusion,3
+"The patient presents with shortness of breath, chest tightness, nasal congestion, and leg swelling.",pulmonary congestion,6
+"The patient presents with dizziness, difficulty in swallowing, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, vomiting, wheezing, weakness, fever, and coryza.",pneumonia,4
+"The patient presents with sore throat, cough, nasal congestion, vomiting, weakness, fever, chills, and coryza.",pneumonia,4
+"The patient presents with difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with dizziness, nausea, back pain, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, nausea, back pain, and heartburn.",hiatal hernia,2
+"The patient presents with sharp chest pain, difficulty in swallowing, regurgitation, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, chest tightness, fever, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with shortness of breath, cough, nasal congestion, and vomiting.",pneumonia,4
+"The patient presents with sharp chest pain, wheezing, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with dizziness, sore throat, cough, and headache.",atelectasis,0
+"The patient presents with shortness of breath, cough, drug abuse, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with shortness of breath, cough, vomiting, wheezing, weakness, and fever.",pneumonia,4
+"The patient presents with shortness of breath, weakness, difficulty breathing, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, cough, nasal congestion, vomiting, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, chest tightness, fainting, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with sharp chest pain, sharp abdominal pain, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, cough, drug abuse, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sharp chest pain, cough, nasal congestion, vomiting, wheezing, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, nasal congestion, vomiting, wheezing, chills, and coryza.",pneumonia,4
+"The patient presents with sharp abdominal pain, back pain, and heartburn.",hiatal hernia,2
+"The patient presents with cough, nasal congestion, leg swelling, weakness, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, and burning abdominal pain.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with dizziness, sharp abdominal pain, nausea, back pain, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, cough, nasal congestion, and wheezing.",pneumonia,4
+The patient presents with cough and difficulty breathing.,pulmonary fibrosis,7
+"The patient presents with shortness of breath, chest tightness, cough, nasal congestion, leg swelling, and fever.",pulmonary congestion,6
+"The patient presents with difficulty in swallowing, back pain, vomiting blood, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with dizziness, vomiting blood, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with vomiting blood, burning abdominal pain, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, dizziness, sharp abdominal pain, nausea, vomiting blood, regurgitation, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with cough, sharp abdominal pain, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with sharp chest pain, cough, sharp abdominal pain, and side pain.",pleural effusion,3
+"The patient presents with sharp chest pain, sore throat, vomiting, and difficulty breathing.",pneumonia,4
+"The patient presents with dizziness, sharp abdominal pain, vomiting blood, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, sore throat, cough, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, cough, wheezing, weakness, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with sharp chest pain, cough, back pain, side pain, and shoulder pain.",pneumothorax,5
+"The patient presents with drug abuse, back pain, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, sharp chest pain, drug abuse, and side pain.",pneumothorax,5
+"The patient presents with sore throat, nasal congestion, vomiting, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, cough, nasal congestion, vomiting, fever, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, cough, fever, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with cough, vomiting, wheezing, fever, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sore throat, and headache.",atelectasis,0
+"The patient presents with wheezing, weakness, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, nasal congestion, vomiting, fever, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, sharp abdominal pain, back pain, and rib pain.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, nasal congestion, leg swelling, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, chest tightness, fainting, fever, and difficulty breathing.",pulmonary fibrosis,7
+"The patient presents with sharp chest pain, leg swelling, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with difficulty in swallowing, nausea, back pain, vomiting blood, and burning abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, chest tightness, cough, leg swelling, weakness, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, nasal congestion, vomiting, weakness, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, cough, weakness, side pain, and rib pain.",pleural effusion,3
+"The patient presents with sore throat, cough, nasal congestion, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, cough, drug abuse, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with shortness of breath, cough, and back pain.",pneumothorax,5
+"The patient presents with sharp chest pain, nasal congestion, vomiting, wheezing, weakness, fever, and difficulty breathing.",pneumonia,4
+"The patient presents with sharp chest pain, sore throat, vomiting, wheezing, weakness, and fever.",pneumonia,4
+"The patient presents with dizziness, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, sore throat, cough, nasal congestion, vomiting, weakness, and difficulty breathing.",pneumonia,4
+"The patient presents with difficulty in swallowing, nausea, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with sharp chest pain, sore throat, cough, nasal congestion, weakness, fever, chills, and coryza.",pneumonia,4
+The patient presents with sore throat and fever.,pneumonia,4
+"The patient presents with sharp chest pain, sore throat, cough, vomiting, wheezing, weakness, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, difficulty in swallowing, vomiting blood, regurgitation, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sore throat, vomiting, wheezing, weakness, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, weakness, and decreased heart rate.",pulmonary congestion,6
+The patient presents with sharp chest pain and sharp abdominal pain.,pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, cough, and sharp abdominal pain.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with difficulty in swallowing, sharp abdominal pain, nausea, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with chest tightness, cough, leg swelling, and decreased heart rate.",pulmonary congestion,6
+"The patient presents with weakness, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, back pain, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with nasal congestion, wheezing, weakness, difficulty breathing, and chills.",pneumonia,4
+The patient presents with shortness of breath and cough.,emphysema,1
+"The patient presents with shortness of breath, cough, and emotional symptoms.",emphysema,1
+"The patient presents with nasal congestion, wheezing, and difficulty breathing.",pneumonia,4
+"The patient presents with sharp chest pain, regurgitation, burning abdominal pain, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, cough, chills, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, cough, weakness, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, sharp chest pain, cough, drug abuse, and shoulder pain.",pneumothorax,5
+"The patient presents with shortness of breath, sore throat, vomiting, weakness, difficulty breathing, and coryza.",pneumonia,4
+The patient presents with sharp chest pain and cough.,pulmonary congestion,6
+"The patient presents with dizziness, difficulty in swallowing, sharp abdominal pain, nausea, vomiting blood, burning abdominal pain, and heartburn.",hiatal hernia,2
+"The patient presents with sharp chest pain, sore throat, vomiting, weakness, and coryza.",pneumonia,4
+"The patient presents with side pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sharp chest pain, sharp abdominal pain, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with nausea, vomiting blood, regurgitation, heartburn, and regurgitation.1.",hiatal hernia,2
+"The patient presents with cough, vomiting, wheezing, fever, difficulty breathing, and coryza.",pneumonia,4
+"The patient presents with sore throat, vomiting, wheezing, weakness, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, cough, leg swelling, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, chest tightness, cough, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, nasal congestion, vomiting, weakness, and fever.",pneumonia,4
+"The patient presents with sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, heartburn, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, sore throat, cough, nasal congestion, vomiting, wheezing, weakness, and chills.",pneumonia,4
+"The patient presents with dizziness, difficulty in swallowing, nausea, back pain, vomiting blood, regurgitation, burning abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with dizziness, difficulty in swallowing, nausea, back pain, vomiting blood, regurgitation, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, drug abuse, back pain, shoulder pain, and hurts to breath.",pneumothorax,5
+"The patient presents with sharp abdominal pain, weakness, side pain, rib pain, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, dizziness, sharp abdominal pain, back pain, burning abdominal pain, heartburn, and upper abdominal pain.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, nasal congestion, wheezing, weakness, chills, and coryza.",pneumonia,4
+"The patient presents with sharp abdominal pain, side pain, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with shortness of breath, sharp abdominal pain, back pain, weakness, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with shortness of breath, sharp chest pain, nasal congestion, leg swelling, and fever.",pulmonary congestion,6
+The patient presents with shortness of breath and difficulty breathing.,pleural effusion,3
+"The patient presents with dizziness, sharp abdominal pain, nausea, and heartburn.",hiatal hernia,2
+"The patient presents with sharp abdominal pain, weakness, and side pain.",pleural effusion,3
+"The patient presents with cough, sharp abdominal pain, weakness, and side pain.",pleural effusion,3
+"The patient presents with chest tightness, cough, leg swelling, weakness, decreased heart rate, and fever.",pulmonary congestion,6
+"The patient presents with shortness of breath, cough, nasal congestion, vomiting, fever, difficulty breathing, chills, and coryza.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, sore throat, vomiting, wheezing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, weakness, and fever.",pulmonary congestion,6
+"The patient presents with sharp chest pain, sharp abdominal pain, weakness, difficulty breathing, and rib pain.",pleural effusion,3
+"The patient presents with cough, vomiting, wheezing, weakness, fever, and coryza.",pneumonia,4
+"The patient presents with sharp chest pain, difficulty in swallowing, sharp abdominal pain, vomiting blood, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with shortness of breath, sharp chest pain, chest tightness, and leg swelling.",pulmonary congestion,6
+"The patient presents with shortness of breath, cough, sharp abdominal pain, back pain, difficulty breathing, and hurts to breath.",pleural effusion,3
+"The patient presents with sharp chest pain, difficulty in swallowing, sharp abdominal pain, regurgitation, burning abdominal pain, upper abdominal pain, and regurgitation.1.",hiatal hernia,2
+"The patient presents with sharp chest pain, vomiting, weakness, fever, difficulty breathing, and chills.",pneumonia,4
+"The patient presents with shortness of breath, sharp chest pain, drug abuse, back pain, side pain, shoulder pain, and hurts to breath.",pneumothorax,5
