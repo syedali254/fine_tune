@@ -1,0 +1,36 @@
+{
+  "checkpoint_epoch": 1,
+  "test_metrics": {
+    "accuracy": 0.9947,
+    "precision": 0.9831,
+    "recall": 1.0,
+    "f1": 0.9915,
+    "specificity": 0.9924,
+    "roc_auc": 1.0
+  },
+  "confusion_matrix": [
+    [
+      131,
+      1
+    ],
+    [
+      0,
+      58
+    ]
+  ],
+  "probability_stats": {
+    "pneumonia": {
+      "mean": 0.9998,
+      "min": 0.9996,
+      "max": 0.9998
+    },
+    "non_pneumonia": {
+      "mean": 0.0078,
+      "min": 0.0001,
+      "max": 0.9988
+    }
+  },
+  "uncertain_predictions": 0,
+  "leakage_confirmed_zero": true,
+  "dataset_note": "Near-perfect separation is attributed to the structured synthetic nature of symptom sentences generated from disease-specific binary symptom vectors, producing disease-distinctive vocabulary patterns. No leakage detected. Result reflects dataset properties, not general clinical generalisability."
+}

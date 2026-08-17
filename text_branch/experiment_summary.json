@@ -1,0 +1,76 @@
+{
+  "experiment": "BioBERT Binary Pneumonia Classifier",
+  "model": "dmis-lab/biobert-base-cased-v1.1",
+  "task": "Binary classification \u2014 Pneumonia (1) vs Non-pneumonia (0)",
+  "dataset": {
+    "source": "BioBERT_Text_Dataset_Encoded.csv",
+    "total_rows": 3766,
+    "after_conflict_removal": 3739,
+    "conflicts_removed": 27,
+    "pneumonia": 1200,
+    "non_pneumonia": 2539,
+    "imbalance_ratio": "2.11:1"
+  },
+  "splits": {
+    "train": {
+      "samples": 3349,
+      "pneumonia": 1082,
+      "non_pneumonia": 2267
+    },
+    "val": {
+      "samples": 200,
+      "pneumonia": 60,
+      "non_pneumonia": 140
+    },
+    "test": {
+      "samples": 190,
+      "pneumonia": 58,
+      "non_pneumonia": 132
+    },
+    "leakage": "zero \u2014 group-aware split on identical texts"
+  },
+  "hyperparameters": {
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "num_epochs": 5,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "dropout": 0.3,
+    "seed": 42,
+    "class_weights": {
+      "non_pneumonia": 0.7386,
+      "pneumonia": 1.5476
+    }
+  },
+  "training": {
+    "best_epoch": 1,
+    "best_val_auc": 1.0,
+    "early_stopped": false
+  },
+  "test_metrics": {
+    "accuracy": 0.9947,
+    "precision": 0.9831,
+    "recall": 1.0,
+    "specificity": 0.9924,
+    "f1": 0.9915,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        131,
+        1
+      ],
+      [
+        0,
+        58
+      ]
+    ]
+  },
+  "dataset_limitation": "Near-perfect performance is attributed to the synthetic structured nature of symptom sentences generated from disease-specific binary symptom vectors, producing highly distinctive vocabulary patterns per disease. Results reflect dataset properties and do not imply generalisation to real clinical free-text notes.",
+  "files": {
+    "best_checkpoint": "/content/drive/MyDrive/BioBERT_Project/biobert_pneumonia/checkpoints/best_model.pt",
+    "tokenizer": "/content/drive/MyDrive/BioBERT_Project/biobert_pneumonia/checkpoints/tokenizer",
+    "test_results": "/content/drive/MyDrive/BioBERT_Project/biobert_pneumonia/results/test_results.json",
+    "training_history": "/content/drive/MyDrive/BioBERT_Project/biobert_pneumonia/results/training_history.json"
+  }
+}

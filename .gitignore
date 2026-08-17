@@ -1,6 +1,7 @@
 # Dataset
 chest_xray/
-
+report/
+text_branch/best_model.pt
 # Python
 __pycache__/
 *.pyc
